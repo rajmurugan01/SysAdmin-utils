@@ -3065,6 +3065,15 @@ ssh user@host cat /path/to/remotefile | diff /path/to/localfile -
 ```bash
 ssh -t reachable_host ssh unreachable_host
 ```
+###### SSH port forwarding
+
+Windows
+holds your private keys in memory, already decoded, so that you can use them often without needing to type a passphrase.1
+
+https://winscp.net/eng/docs/ui_pageant
+
+macos 
+ssh-agent add private key to the key change
 
 ###### Run command over SSH on remote host
 
